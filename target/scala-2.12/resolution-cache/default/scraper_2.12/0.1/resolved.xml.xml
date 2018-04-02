@@ -4,7 +4,7 @@
 		module="scraper_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20180330111025"
+		publication="20180402183617"
 	>
 		<description>
 		scraper
@@ -32,7 +32,12 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.5" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.5" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-jackson_2.12" rev="3.5.0" conf="compile->default(compile)"/>
 		<dependency org="net.ruippeixotog" name="scala-scraper_2.12" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatest" name="scalatest_2.12" rev="3.0.5" conf="test->default(compile)"/>
+		<dependency org="com.typesafe" name="config" rev="1.2.0" conf="compile->default(compile)"/>
+		<dependency org="com.github.pathikrit" name="better-files_2.12" rev="3.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.scala-logging" name="scala-logging_2.12" rev="3.8.0" conf="compile->default(compile)"/>
+		<dependency org="nl.grons" name="metrics4-scala_2.12" rev="4.0.1" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

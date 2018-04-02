@@ -1,11 +1,10 @@
-import net.ruippeixotog.scalascraper.model._
 import net.ruippeixotog.scalascraper.browser.JsoupBrowser
-import net.ruippeixotog.scalascraper.dsl.DSL._
 import net.ruippeixotog.scalascraper.dsl.DSL.Extract._
-import net.ruippeixotog.scalascraper.dsl.DSL.Parse._
-import java.net.{InetSocketAddress, Proxy}
+import net.ruippeixotog.scalascraper.dsl.DSL._
 
-object BashOrgUrlBuilder {
+
+object PageScraper extends Instrumented {
+  private val browser = new JsoupBrowser()
   private val baseUrl = "http://bash.org.pl"
   private val latestPostsPath = "/latest/?page="
 
@@ -15,30 +14,26 @@ object BashOrgUrlBuilder {
     }
   }
 
-  def getNBashPages(num: Int) = getAllUrls(this.baseUrl, num)
+  private def getNBashPages(num: Int): List[String] = getAllUrls(this.baseUrl, num)
 
+  private[this] val pageLoadingMetric = metrics.timer("page loading")
+  private[this] val postsCounter = metrics.counter("all posts counter")
 
-}
-
-case class Post(val id: Long, val points: Long, val content: String)
-
-object PageScraper {
-
-  val browser = new JsoupBrowser(proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("10.144.1.10", 8080)))
-
-  def pageToPostsList(url: String) = {
+  def pageToPostsList(url: String): List[Post] = pageLoadingMetric.time {
     val page = browser.get(url)
-
     (page >> elementList(".post")) map { post =>
-      println(postParser(post))
+      postsCounter += 1
+      Post.htmlToPost(post)
     }
   }
 
-  def postParser(post: Element): Post = {
-    val id = (post >> extractor(".qid", text)).replace("#", "").toLong
-    val content: String = post >> extractor(".post-content", text)
-    val points = post >> extractor(".points", text, asInt)
-    Post(id, points, content)
+  private[this] val allPostsLoadingMetric = metrics.timer("all post loading")
+
+  def getPostsFromNPages(num: Int): List[Post] = allPostsLoadingMetric.time {
+    getNBashPages(num) flatMap { url => pageToPostsList(url) }
   }
 }
+
+
+
 
