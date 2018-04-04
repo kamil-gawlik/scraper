@@ -1,254 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80c0bd42-fe46-48ec-bdf6-5f534e7c5a14" name="Default" comment="ready?">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/REDAME.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/project/assembly.sbt" />
-      <change beforePath="$PROJECT_DIR$/.idea/hydra.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_8_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_8_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_8_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_nscala_time_nscala_time_2_12_2_18_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_github_pathikrit_better_files_2_12_3_4_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_2_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_scala_logging_scala_logging_2_12_3_8_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_3_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_4_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_healthchecks_4_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_ruippeixotog_scala_scraper_2_12_2_1_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_cssparser_cssparser_0_9_24_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_htmlunit_2_29_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_htmlunit_core_js_2_28_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sourceforge_htmlunit_neko_htmlunit_2_28_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__nl_grons_metrics4_scala_2_12_4_0_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_text_1_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_7_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpmime_4_5_4_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_client_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_http_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_io_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_util_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_jetty_xml_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_api_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_client_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_common_9_4_8_v20171121_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_joda_joda_convert_1_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_5_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_5_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_jackson_2_12_3_5_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_5_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_jsoup_jsoup_1_11_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_5_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_5_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalaz_scalaz_core_2_12_7_2_18_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_w3c_css_sac_1_3_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_serializer_2_7_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xalan_xalan_2_7_2_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xerces_xercesImpl_2_11_0_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__xml_apis_xml_apis_1_4_01_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scraper-build.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/scraper.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/fdsa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/fdsa/shelved.patch" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11654a0f980151b0b550$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11654a0f980151b0b550.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$11654a0f980151b0b550.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38101be497093ac14f35$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38101be497093ac14f35.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$38101be497093ac14f35.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a97d308d8213685ff7f$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a97d308d8213685ff7f.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3a97d308d8213685ff7f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8ce15c2a1a7653e0a4fa$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8ce15c2a1a7653e0a4fa.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8ce15c2a1a7653e0a4fa.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9f63d1c9a526783772b2$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9f63d1c9a526783772b2.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9f63d1c9a526783772b2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a635de9780b9bc81c0f0$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a635de9780b9bc81c0f0.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a635de9780b9bc81c0f0.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8f921849005146c1906$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8f921849005146c1906.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b8f921849005146c1906.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b96e2e741d80e453a1eb$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b96e2e741d80e453a1eb.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b96e2e741d80e453a1eb.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$baa3a1bb0a31292d30ef$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$baa3a1bb0a31292d30ef.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$baa3a1bb0a31292d30ef.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd5a041032c5bb330df4$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd5a041032c5bb330df4.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cd5a041032c5bb330df4.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0fa01ccd9e038f21477$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0fa01ccd9e038f21477.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d0fa01ccd9e038f21477.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e499e478811b49dd71cb$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e499e478811b49dd71cb.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e499e478811b49dd71cb.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ebea5527cc75160ce039$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ebea5527cc75160ce039.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ebea5527cc75160ce039.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec4a20e35009a8b9ea2f$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec4a20e35009a8b9ea2f.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec4a20e35009a8b9ea2f.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f40dbd79d5a2757cd210$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f40dbd79d5a2757cd210.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f40dbd79d5a2757cd210.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6f357e13995babf8f13$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6f357e13995babf8f13.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f6f357e13995babf8f13.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/$global/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compile/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/PageScraper.scala" afterPath="$PROJECT_DIR$/src/main/scala/PageScraper.scala" />
-      <change beforePath="$PROJECT_DIR$/src/resources/application.conf" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" />
-      <change beforePath="$PROJECT_DIR$/src/resources/reference.conf" afterPath="$PROJECT_DIR$/src/main/resources/reference.conf" />
-      <change beforePath="$PROJECT_DIR$/target/.history" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Instrumented.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/PageScraper$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/PageScraper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Post$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Post.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/SettingsParser$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/SettingsParser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/application.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/reference.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-optional.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-plugin.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-provided.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-scala-tool.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test-internal.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/ivy-report.xsl" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivySbt/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/projectDescriptors/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test.json" afterPath="$PROJECT_DIR$/test.json" />
+    <list default="true" id="80c0bd42-fe46-48ec-bdf6-5f534e7c5a14" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/REDAME.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -297,7 +52,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reference.conf" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reference.conf" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/reference.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -327,12 +82,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="REDAME.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/REDAME.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="234">
-                <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+                <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -740,7 +495,7 @@
       <workItem from="1522679312581" duration="317000" />
       <workItem from="1522679825917" duration="11505000" />
       <workItem from="1522826158615" duration="3440000" />
-      <workItem from="1522831881583" duration="268000" />
+      <workItem from="1522831881583" duration="407000" />
     </task>
     <task id="LOCAL-00001" summary="ready?">
       <created>1522691316189</created>
@@ -749,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522691316190</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lets call it final version..">
+      <created>1522832193230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522832193230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -761,7 +523,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23759000" />
+    <option name="totallyTimeSpent" value="23898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3839" y="45" width="1922" height="1036" extended-state="0" />
@@ -811,7 +573,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ready?" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready?" />
+    <MESSAGE value="lets call it final version.." />
+    <option name="LAST_COMMIT_MESSAGE" value="lets call it final version.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,7 +677,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/REDAME.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="126">
@@ -939,6 +702,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,6 +864,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1107,17 +872,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/REDAME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-            <folding />
-          </first_editor>
-          <second_editor />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1162,6 +917,17 @@
         <state relative-caret-position="36">
           <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
