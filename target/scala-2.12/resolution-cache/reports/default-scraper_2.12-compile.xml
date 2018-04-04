@@ -7,39 +7,39 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20180402183617"/>
+		date="20180404102348"/>
 	<dependencies>
 		<module organisation="nl.grons" name="metrics4-scala_2.12">
-			<revision name="4.0.1" status="release" pubdate="20180107143326" resolver="public" artresolver="public" homepage="https://github.com/erikvanoosten/metrics-scala" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="47">
+			<revision name="4.0.1" status="release" pubdate="20180107143326" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/erikvanoosten/metrics-scala" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="47">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2758" time="162" location="/home/kgl/.ivy2/cache/nl.grons/metrics4-scala_2.12/ivy-4.0.1.xml" searched="true" original-local-location="/home/kgl/.ivy2/cache/nl.grons/metrics4-scala_2.12/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/nl/grons/metrics4-scala_2.12/4.0.1/metrics4-scala_2.12-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="3361" time="0" location="/home/kgl/.ivy2/cache/nl.grons/metrics4-scala_2.12/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/nl/grons/metrics4-scala_2.12/4.0.1/metrics4-scala_2.12-4.0.1.pom"/>
 				<caller organisation="default" name="scraper_2.12" conf="compile" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="metrics4-scala_2.12" type="jar" ext="jar" status="successful" details="" size="59351" time="385" location="/home/kgl/.ivy2/cache/nl.grons/metrics4-scala_2.12/jars/metrics4-scala_2.12-4.0.1.jar">
+					<artifact name="metrics4-scala_2.12" type="jar" ext="jar" status="no" details="" size="59351" time="0" location="/home/kgl/.ivy2/cache/nl.grons/metrics4-scala_2.12/jars/metrics4-scala_2.12-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/nl/grons/metrics4-scala_2.12/4.0.1/metrics4-scala_2.12-4.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-healthchecks">
-			<revision name="4.0.1" status="release" pubdate="20180103182920" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+			<revision name="4.0.1" status="release" pubdate="20180103182920" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1396" time="146" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/ivy-4.0.1.xml" searched="true" original-local-location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/4.0.1/metrics-healthchecks-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="12447" time="0" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/4.0.1/metrics-healthchecks-4.0.1.pom"/>
 				<caller organisation="nl.grons" name="metrics4-scala_2.12" conf="default, compile, runtime, master" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="4.0.1"/>
 				<artifacts>
-					<artifact name="metrics-healthchecks" type="bundle" ext="jar" status="successful" details="" size="21258" time="147" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/bundles/metrics-healthchecks-4.0.1.jar">
+					<artifact name="metrics-healthchecks" type="bundle" ext="jar" status="no" details="" size="21258" time="0" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-healthchecks/bundles/metrics-healthchecks-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-healthchecks/4.0.1/metrics-healthchecks-4.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="io.dropwizard.metrics" name="metrics-core">
-			<revision name="4.0.1" status="release" pubdate="20180103182837" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+			<revision name="4.0.1" status="release" pubdate="20180103182837" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
 				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="846" time="145" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-4.0.1.xml" searched="true" original-local-location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-4.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/4.0.1/metrics-core-4.0.1.pom"/>
+				<metadata-artifact status="no" details="" size="4895" time="0" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-core/ivy-4.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/4.0.1/metrics-core-4.0.1.pom"/>
 				<caller organisation="nl.grons" name="metrics4-scala_2.12" conf="default, compile, runtime, master" rev="4.0.1" rev-constraint-default="4.0.1" rev-constraint-dynamic="4.0.1" callerrev="4.0.1"/>
 				<artifacts>
-					<artifact name="metrics-core" type="bundle" ext="jar" status="successful" details="" size="97677" time="511" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-4.0.1.jar">
+					<artifact name="metrics-core" type="bundle" ext="jar" status="no" details="" size="97677" time="0" location="/home/kgl/.ivy2/cache/io.dropwizard.metrics/metrics-core/bundles/metrics-core-4.0.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/dropwizard/metrics/metrics-core/4.0.1/metrics-core-4.0.1.jar"/>
 					</artifact>
 				</artifacts>

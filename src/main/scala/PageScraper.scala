@@ -1,10 +1,12 @@
+import java.net.{InetSocketAddress, Proxy}
+
 import net.ruippeixotog.scalascraper.browser.JsoupBrowser
 import net.ruippeixotog.scalascraper.dsl.DSL.Extract._
 import net.ruippeixotog.scalascraper.dsl.DSL._
 
 
 object PageScraper extends Instrumented {
-  private val browser = new JsoupBrowser()
+  private val browser = new JsoupBrowser(proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("10.144.1.10", 8080)))
   private val baseUrl = "http://bash.org.pl"
   private val latestPostsPath = "/latest/?page="
 
