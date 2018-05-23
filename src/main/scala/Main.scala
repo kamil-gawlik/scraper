@@ -1,9 +1,6 @@
-import java.util
-
 import better.files._
-import com.codahale.metrics.{ConsoleReporter, MetricRegistry}
+import com.codahale.metrics.ConsoleReporter
 import com.typesafe.scalalogging.LazyLogging
-import nl.grons.metrics4.scala.Counter
 
 
 trait Instrumented extends nl.grons.metrics4.scala.InstrumentedBuilder {

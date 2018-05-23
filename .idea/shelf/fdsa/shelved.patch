@@ -1,0 +1,710 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"80c0bd42-fe46-48ec-bdf6-5f534e7c5a14\" name=\"Default\" comment=\"\">\n      <change beforePath=\"\" afterPath=\"$PROJECT_DIR$/src/main/scala/SettingParser.scala\" />\n      <change beforePath=\"\" afterPath=\"$PROJECT_DIR$/src/resources/application.conf\" />\n      <change beforePath=\"\" afterPath=\"$PROJECT_DIR$/src/resources/reference.conf\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/modules/scraper.iml\" afterPath=\"$PROJECT_DIR$/.idea/modules/scraper.iml\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/build.sbt\" afterPath=\"$PROJECT_DIR$/build.sbt\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2.cache\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1.cache\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96.cache\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c.cache\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f.cache\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268.cache\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile-internal.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-optional.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-optional.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-plugin.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-plugin.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-pom.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-pom.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-provided.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-provided.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime-internal.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-scala-tool.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-scala-tool.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test-internal.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test.xml\" afterPath=\"$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out\" afterPath=\"$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out\" />\n      <change beforePath=\"$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output\" afterPath=\"$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/scala/Main.scala\" afterPath=\"$PROJECT_DIR$/src/main/scala/Main.scala\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/scala/PageScraper.scala\" afterPath=\"$PROJECT_DIR$/src/main/scala/PageScraper.scala\" />\n      <change beforePath=\"$PROJECT_DIR$/src/test/scala/UtilsSpec.scala\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/BashOrgUrlBuilder$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/BashOrgUrlBuilder.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/Main$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/Main.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/PageScraper$.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/PageScraper.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/Post$.class\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/classes/Post$.class\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/classes/Post.class\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/classes/Post.class\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.properties\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.properties\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.properties\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.properties\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile-internal.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-optional.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-optional.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-plugin.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-plugin.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-pom.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-pom.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-provided.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-provided.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime-internal.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-scala-tool.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-scala-tool.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test-internal.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile-internal.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-optional.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-optional.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-plugin.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-plugin.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-pom.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-pom.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-provided.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-provided.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime-internal.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-scala-tool.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-scala-tool.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test-internal.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test-internal.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test.xml\" afterPath=\"$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test.xml\" />\n      <change beforePath=\"$PROJECT_DIR$/target/scala-2.12/test-classes/UtilsSpec.class\" afterPath=\"\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp\" afterPath=\"$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp\" afterPath=\"$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/$global/update/$global/streams/out\" afterPath=\"$PROJECT_DIR$/target/streams/$global/update/$global/streams/out\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs\" afterPath=\"$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output\" afterPath=\"$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out\" afterPath=\"$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export\" afterPath=\"$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export\" afterPath=\"$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export\" afterPath=\"$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export\" afterPath=\"$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export\" afterPath=\"$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export\" />\n      <change beforePath=\"$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export\" afterPath=\"$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export\" />\n    </list>\n    <ignored path=\"$PROJECT_DIR$/out/\" />\n    <ignored path=\"$PROJECT_DIR$/target/\" />\n    <ignored path=\"$PROJECT_DIR$/project/project/target/\" />\n    <ignored path=\"$PROJECT_DIR$/project/target/\" />\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"TRACKING_ENABLED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"SBT\">\n      <state>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"scraper\" type=\"f1a62948:ProjectNode\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\n      <file leaf-file-name=\"PageScraper.scala\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/scala/PageScraper.scala\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"340\">\n              <caret line=\"29\" column=\"52\" lean-forward=\"false\" selection-start-line=\"29\" selection-start-column=\"52\" selection-end-line=\"29\" selection-end-column=\"52\" />\n              <folding>\n                <element signature=\"e#0#57#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"application.conf\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/resources/application.conf\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"17\">\n              <caret line=\"1\" column=\"14\" lean-forward=\"false\" selection-start-line=\"1\" selection-start-column=\"14\" selection-end-line=\"1\" selection-end-column=\"14\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"SettingParser.scala\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/scala/SettingParser.scala\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"102\">\n              <caret line=\"8\" column=\"52\" lean-forward=\"true\" selection-start-line=\"8\" selection-start-column=\"37\" selection-end-line=\"8\" selection-end-column=\"52\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"reference.conf\" pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/src/resources/reference.conf\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"34\">\n              <caret line=\"2\" column=\"20\" lean-forward=\"true\" selection-start-line=\"2\" selection-start-column=\"20\" selection-end-line=\"2\" selection-end-column=\"20\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"build.sbt\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/build.sbt\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"204\">\n              <caret line=\"12\" column=\"52\" lean-forward=\"false\" selection-start-line=\"12\" selection-start-column=\"52\" selection-end-line=\"12\" selection-end-column=\"52\" />\n              <folding />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"Post.scala\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/scala/Post.scala\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"-77\">\n              <caret line=\"0\" column=\"5\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"5\" selection-end-line=\"0\" selection-end-column=\"5\" />\n              <folding>\n                <element signature=\"e#0#54#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file leaf-file-name=\"Main.scala\" pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/src/main/scala/Main.scala\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"365\">\n              <caret line=\"23\" column=\"39\" lean-forward=\"false\" selection-start-line=\"23\" selection-start-column=\"22\" selection-end-line=\"23\" selection-end-column=\"39\" />\n              <folding>\n                <element signature=\"e#0#16#0\" expanded=\"true\" />\n              </folding>\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"FindInProjectRecents\">\n    <findStrings>\n      <find>proxy</find>\n      <find>10.14</find>\n      <find>2_2</find>\n    </findStrings>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GradleLocalSettings\">\n    <option name=\"externalProjectsViewState\">\n      <projects_view />\n    </option>\n    <option name=\"projectSyncType\">\n      <map>\n        <entry key=\"$PROJECT_DIR$/../recruitment-java-book-discounts\" value=\"PREVIEW\" />\n      </map>\n    </option>\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/src/main/scala/PageScraper\" />\n        <option value=\"$PROJECT_DIR$/src/test/UtilsTest.scala\" />\n        <option value=\"$PROJECT_DIR$/src/test/UtilsSpec.scala\" />\n        <option value=\"$PROJECT_DIR$/src/test/scala/UtilsSpec.scala\" />\n        <option value=\"$PROJECT_DIR$/src/main/scala/Post.scala\" />\n        <option value=\"$PROJECT_DIR$/application.conf\" />\n        <option value=\"$PROJECT_DIR$/reference.conf\" />\n        <option value=\"$PROJECT_DIR$/build.sbt\" />\n        <option value=\"$PROJECT_DIR$/src/resources/application.conf\" />\n        <option value=\"$PROJECT_DIR$/src/main/scala/PageScraper.scala\" />\n        <option value=\"$PROJECT_DIR$/src/main/scala/Main.scala\" />\n        <option value=\"$PROJECT_DIR$/src/main/scala/SettingParser.scala\" />\n        <option value=\"$PROJECT_DIR$/src/resources/reference.conf\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"JsBuildToolGruntFileManager\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsBuildToolPackageJson\" detection-done=\"true\" sorting=\"DEFINITION_ORDER\" />\n  <component name=\"JsGulpfileManager\">\n    <detection-done>true</detection-done>\n    <sorting>DEFINITION_ORDER</sorting>\n  </component>\n  <component name=\"ProjectFrameBounds\">\n    <option name=\"x\" value=\"-1\" />\n    <option name=\"y\" value=\"1\" />\n    <option name=\"width\" value=\"1922\" />\n    <option name=\"height\" value=\"1080\" />\n  </component>\n  <component name=\"ProjectInspectionProfilesVisibleTreeState\">\n    <entry key=\"Project Default\">\n      <profile-state>\n        <expanded-state>\n          <State>\n            <id />\n          </State>\n          <State>\n            <id>CDI(Contexts and Dependency Injection) issues</id>\n          </State>\n          <State>\n            <id>CodeSpring CoreSpring</id>\n          </State>\n          <State>\n            <id>Encapsulation issuesJava</id>\n          </State>\n          <State>\n            <id>Java</id>\n          </State>\n          <State>\n            <id>Spring</id>\n          </State>\n          <State>\n            <id>Spring AOPSpring</id>\n          </State>\n          <State>\n            <id>Spring CoreSpring</id>\n          </State>\n        </expanded-state>\n      </profile-state>\n    </entry>\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectView\">\n    <navigator currentView=\"ProjectPane\" proportions=\"\" version=\"1\">\n      <flattenPackages />\n      <showMembers />\n      <showModules />\n      <showLibraryContents />\n      <hideEmptyPackages />\n      <abbreviatePackageNames />\n      <autoscrollToSource />\n      <autoscrollFromSource ProjectPane=\"true\" />\n      <sortByType />\n      <manualOrder />\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"AndroidView\" />\n      <pane id=\"Scope\" />\n      <pane id=\"ProjectPane\">\n        <subPane>\n          <expand>\n            <path>\n              <item name=\"scraper\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"scraper\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"scraper\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"scraper\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"scraper\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"scraper\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"scraper\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"scraper\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"scala\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n            <path>\n              <item name=\"scraper\" type=\"b2602c69:ProjectViewProjectNode\" />\n              <item name=\"scraper\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\n              <item name=\"resources\" type=\"462c0819:PsiDirectoryNode\" />\n            </path>\n          </expand>\n          <select />\n        </subPane>\n      </pane>\n      <pane id=\"PackagesPane\" />\n      <pane id=\"Scratches\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"project.structure.last.edited\" value=\"Modules\" />\n    <property name=\"project.structure.proportion\" value=\"0.0\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.0\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"http.proxy\" />\n    <property name=\"last_directory_selection\" value=\"$PROJECT_DIR$/src/main/scala\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/src/resources\" />\n    </key>\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\" selected=\"Application.Main\">\n    <configuration default=\"true\" type=\"Applet\" factoryName=\"Applet\">\n      <option name=\"WIDTH\" value=\"400\" />\n      <option name=\"HEIGHT\" value=\"300\" />\n      <option name=\"POLICY_FILE\" value=\"$APPLICATION_HOME_DIR$/bin/appletviewer.policy\" />\n      <module />\n    </configuration>\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <module name=\"scraper\" />\n      <envs />\n    </configuration>\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <option name=\"MAIN_CLASS_NAME\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"ENABLE_SWING_INSPECTOR\" value=\"false\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <module name=\"\" />\n      <envs />\n    </configuration>\n    <configuration default=\"true\" type=\"JUnit\" factoryName=\"JUnit\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <module name=\"\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PACKAGE_NAME\" />\n      <option name=\"MAIN_CLASS_NAME\" />\n      <option name=\"METHOD_NAME\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\n      <option name=\"PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"%MODULE_WORKING_DIR%\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"TEST_SEARCH_SCOPE\">\n        <value defaultName=\"singleModule\" />\n      </option>\n      <envs />\n      <patterns />\n    </configuration>\n    <configuration default=\"true\" type=\"Remote\" factoryName=\"Remote\">\n      <option name=\"USE_SOCKET_TRANSPORT\" value=\"true\" />\n      <option name=\"SERVER_MODE\" value=\"false\" />\n      <option name=\"SHMEM_ADDRESS\" value=\"javadebug\" />\n      <option name=\"HOST\" value=\"localhost\" />\n      <option name=\"PORT\" value=\"5005\" />\n    </configuration>\n    <configuration name=\"UtilsSpec.BashOrgUrlBuilder should generate n sequential urls\" type=\"ScalaTestRunConfiguration\" factoryName=\"ScalaTest\" temporary=\"true\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <module name=\"scraper\" />\n      <setting name=\"path\" value=\"UtilsSpec\" />\n      <setting name=\"vmparams\" value=\"\" />\n      <setting name=\"params\" value=\"\" />\n      <setting name=\"workingDirectory\" value=\"file://$PROJECT_DIR$\" />\n      <setting name=\"searchForTest\" value=\"Across module dependencies\" />\n      <setting name=\"showProgressMessages\" value=\"true\" />\n      <setting name=\"useSbt\" value=\"false\" />\n      <setting name=\"useUiWithSbt\" value=\"false\" />\n      <envs />\n      <setting name=\"testKind\" value=\"Test name\" />\n      <setting name=\"path\" value=\"UtilsSpec\" />\n      <setting name=\"testName\" value=\"BashOrgUrlBuilder should generate n sequential urls\" />\n    </configuration>\n    <configuration default=\"true\" type=\"TestNG\" factoryName=\"TestNG\">\n      <extension name=\"coverage\" enabled=\"false\" merge=\"false\" sample_coverage=\"true\" runner=\"idea\" />\n      <module name=\"\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"SUITE_NAME\" />\n      <option name=\"PACKAGE_NAME\" />\n      <option name=\"MAIN_CLASS_NAME\" />\n      <option name=\"METHOD_NAME\" />\n      <option name=\"GROUP_NAME\" />\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <option name=\"VM_PARAMETERS\" value=\"-ea\" />\n      <option name=\"PARAMETERS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"%MODULE_WORKING_DIR%\" />\n      <option name=\"OUTPUT_DIRECTORY\" />\n      <option name=\"ANNOTATION_TYPE\" />\n      <option name=\"ENV_VARIABLES\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"TEST_SEARCH_SCOPE\">\n        <value defaultName=\"singleModule\" />\n      </option>\n      <option name=\"USE_DEFAULT_REPORTERS\" value=\"false\" />\n      <option name=\"PROPERTIES_FILE\" />\n      <envs />\n      <properties />\n      <listeners />\n    </configuration>\n    <configuration default=\"true\" type=\"#org.jetbrains.idea.devkit.run.PluginConfigurationType\" factoryName=\"Plugin\">\n      <module name=\"\" />\n      <option name=\"VM_PARAMETERS\" value=\"-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <predefined_log_file id=\"idea.log\" enabled=\"true\" />\n    </configuration>\n    <list size=\"2\">\n      <item index=\"0\" class=\"java.lang.String\" itemvalue=\"ScalaTest.UtilsSpec.BashOrgUrlBuilder should generate n sequential urls\" />\n      <item index=\"1\" class=\"java.lang.String\" itemvalue=\"Application.Main\" />\n    </list>\n    <recent_temporary>\n      <list size=\"1\">\n        <item index=\"0\" class=\"java.lang.String\" itemvalue=\"Application.Main\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SbtLocalSettings\">\n    <option name=\"lastUpdateTimestamp\" value=\"1522686987397\" />\n    <option name=\"availableProjects\">\n      <map>\n        <entry>\n          <key>\n            <ExternalProjectPojo>\n              <option name=\"name\" value=\"scraper\" />\n              <option name=\"path\" value=\"$PROJECT_DIR$\" />\n            </ExternalProjectPojo>\n          </key>\n          <value>\n            <list>\n              <ExternalProjectPojo>\n                <option name=\"name\" value=\"scraper\" />\n                <option name=\"path\" value=\"$PROJECT_DIR$\" />\n              </ExternalProjectPojo>\n              <ExternalProjectPojo>\n                <option name=\"name\" value=\"scraper-build\" />\n                <option name=\"path\" value=\"$PROJECT_DIR$/project\" />\n              </ExternalProjectPojo>\n            </list>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"externalProjectsViewState\">\n      <projects_view />\n    </option>\n    <option name=\"projectSyncType\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"RE_IMPORT\" />\n      </map>\n    </option>\n  </component>\n  <component name=\"ShelveChangesManager\" show_recycled=\"false\">\n    <option name=\"remove_strategy\" value=\"false\" />\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration>$USER_HOME$/.subversion</configuration>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"80c0bd42-fe46-48ec-bdf6-5f534e7c5a14\" name=\"Default\" comment=\"\" />\n      <created>1522399067171</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1522399067171</updated>\n      <workItem from=\"1522399075638\" duration=\"8229000\" />\n      <workItem from=\"1522679312581\" duration=\"317000\" />\n      <workItem from=\"1522679825917\" duration=\"11394000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TestHistory\">\n    <history-entry file=\"UtilsSpec_BashOrgUrlBuilder_should_generate_n_sequential_urls - 2018.03.30 at 11h 17m 46s.xml\">\n      <configuration name=\"UtilsSpec.BashOrgUrlBuilder should generate n sequential urls\" configurationId=\"ScalaTestRunConfiguration\" />\n    </history-entry>\n    <history-entry file=\"UtilsSpec_BashOrgUrlBuilder_should_generate_n_sequential_urls - 2018.03.30 at 11h 23m 39s.xml\">\n      <configuration name=\"UtilsSpec.BashOrgUrlBuilder should generate n sequential urls\" configurationId=\"ScalaTestRunConfiguration\" />\n    </history-entry>\n  </component>\n  <component name=\"TimeTrackingManager\">\n    <option name=\"totallyTimeSpent\" value=\"19940000\" />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"-1\" y=\"1\" width=\"1922\" height=\"1080\" extended-state=\"0\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info id=\"Palette\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"sbt\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32959402\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Event Log\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Maven Projects\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Capture Tool\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Designer\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Build\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.46526316\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Database\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Structure\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Ant Build\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"UI Designer\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Debug\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4336842\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"TODO\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"6\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Messages\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32842106\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Palette&#9;\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Image Layers\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Capture Analysis\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Version Control\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Run\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.5336842\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Terminal\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.32210526\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Project\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"true\" show_stripe_button=\"true\" weight=\"0.15224358\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"sbt-shell-toolwindow\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"7\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Find\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"1\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"SciView\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Theme Preview\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"3\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Favorites\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"true\" content_ui=\"tabs\" />\n      <window_info id=\"Cvs\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"4\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Message\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Commander\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"0\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Hierarchy\" active=\"false\" anchor=\"right\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.25\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"combo\" />\n      <window_info id=\"Inspection\" active=\"false\" anchor=\"bottom\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.4\" sideWeight=\"0.5\" order=\"5\" side_tool=\"false\" content_ui=\"tabs\" />\n      <window_info id=\"Learn\" active=\"false\" anchor=\"left\" auto_hide=\"false\" internal_type=\"DOCKED\" type=\"DOCKED\" visible=\"false\" show_stripe_button=\"true\" weight=\"0.33\" sideWeight=\"0.5\" order=\"2\" side_tool=\"false\" content_ui=\"tabs\" />\n    </layout>\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"1\" />\n  </component>\n  <component name=\"VcsContentAnnotationSettings\">\n    <option name=\"myLimit\" value=\"2678400000\" />\n  </component>\n  <component name=\"XDebuggerManager\">\n    <breakpoint-manager>\n      <option name=\"time\" value=\"4\" />\n    </breakpoint-manager>\n    <watches-manager />\n  </component>\n  <component name=\"debuggerHistoryManager\">\n    <expressions id=\"evaluateExpression\">\n      <expression>\n        <expression-string>ConfigFactory.load()</expression-string>\n        <language-id>Scala</language-id>\n        <evaluation-mode>EXPRESSION</evaluation-mode>\n      </expression>\n      <expression>\n        <expression-string>post &gt;&gt; extractor(&quot;.qid&quot;, text, asInt)</expression-string>\n        <language-id>Scala</language-id>\n        <evaluation-mode>EXPRESSION</evaluation-mode>\n      </expression>\n      <expression>\n        <expression-string>post &gt;&gt; extractor(&quot;.points&quot;, text, asInt)</expression-string>\n        <language-id>Scala</language-id>\n        <evaluation-mode>EXPRESSION</evaluation-mode>\n      </expression>\n      <expression>\n        <expression-string>post &gt;&gt; attr(&quot;#id&quot;)</expression-string>\n        <language-id>Scala</language-id>\n        <evaluation-mode>EXPRESSION</evaluation-mode>\n      </expression>\n      <expression>\n        <expression-string>post &gt;&gt; attr(&quot;id&quot;)</expression-string>\n        <language-id>Scala</language-id>\n        <evaluation-mode>EXPRESSION</evaluation-mode>\n      </expression>\n    </expressions>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/PageScraper.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"e#0#57#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/Main.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"68\">\n          <caret line=\"4\" column=\"49\" lean-forward=\"false\" selection-start-line=\"4\" selection-start-column=\"49\" selection-end-line=\"4\" selection-end-column=\"49\" />\n          <folding>\n            <element signature=\"e#0#16#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/PageScraper.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding>\n            <element signature=\"e#0#57#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/build.sbt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"119\">\n          <caret line=\"7\" column=\"14\" lean-forward=\"false\" selection-start-line=\"7\" selection-start-column=\"14\" selection-end-line=\"7\" selection-end-column=\"14\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/Main.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"68\">\n          <caret line=\"4\" column=\"49\" lean-forward=\"false\" selection-start-line=\"4\" selection-start-column=\"49\" selection-end-line=\"4\" selection-end-column=\"49\" />\n          <folding>\n            <element signature=\"e#0#16#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/project/build.properties\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"19\" lean-forward=\"true\" selection-start-line=\"0\" selection-start-column=\"19\" selection-end-line=\"0\" selection-end-column=\"19\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/util/ProxyUtils.scala\" />\n    <entry file=\"jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala\" />\n    <entry file=\"jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala\" />\n    <entry file=\"file://$PROJECT_DIR$/src/test/scala/UtilsSpec.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"136\">\n          <caret line=\"8\" column=\"45\" lean-forward=\"false\" selection-start-line=\"8\" selection-start-column=\"28\" selection-end-line=\"8\" selection-end-column=\"45\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar://$USER_HOME$/.ivy2/cache/com.github.pathikrit/better-files_2.12/srcs/better-files_2.12-3.4.0-sources.jar!/better/files/File.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"119\">\n          <caret line=\"22\" column=\"6\" lean-forward=\"false\" selection-start-line=\"22\" selection-start-column=\"6\" selection-end-line=\"22\" selection-end-column=\"6\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/output.path\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"340\">\n          <caret line=\"20\" column=\"0\" lean-forward=\"false\" selection-start-line=\"20\" selection-start-column=\"0\" selection-end-line=\"20\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/output.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"340\">\n          <caret line=\"20\" column=\"0\" lean-forward=\"true\" selection-start-line=\"20\" selection-start-column=\"0\" selection-end-line=\"20\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar://$USER_HOME$/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-4.0.1-sources.jar!/com/codahale/metrics/MetricRegistry.java\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"199\">\n          <caret line=\"415\" column=\"36\" lean-forward=\"false\" selection-start-line=\"415\" selection-start-column=\"36\" selection-end-line=\"415\" selection-end-column=\"36\" />\n          <folding>\n            <element signature=\"e#13728#13729#0\" expanded=\"false\" />\n            <element signature=\"e#13778#13779#0\" expanded=\"false\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/test.json\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"0\">\n          <caret line=\"0\" column=\"0\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"0\" selection-end-line=\"0\" selection-end-column=\"0\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/SortedMap.class\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"323\">\n          <caret line=\"22\" column=\"11\" lean-forward=\"false\" selection-start-line=\"22\" selection-start-column=\"11\" selection-end-line=\"22\" selection-end-column=\"11\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/build.sbt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"204\">\n          <caret line=\"12\" column=\"52\" lean-forward=\"false\" selection-start-line=\"12\" selection-start-column=\"52\" selection-end-line=\"12\" selection-end-column=\"52\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/PageScraper.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"340\">\n          <caret line=\"29\" column=\"52\" lean-forward=\"false\" selection-start-line=\"29\" selection-start-column=\"52\" selection-end-line=\"29\" selection-end-column=\"52\" />\n          <folding>\n            <element signature=\"e#0#57#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/Post.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"-77\">\n          <caret line=\"0\" column=\"5\" lean-forward=\"false\" selection-start-line=\"0\" selection-start-column=\"5\" selection-end-line=\"0\" selection-end-column=\"5\" />\n          <folding>\n            <element signature=\"e#0#54#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/Main.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"365\">\n          <caret line=\"23\" column=\"39\" lean-forward=\"false\" selection-start-line=\"23\" selection-start-column=\"22\" selection-end-line=\"23\" selection-end-column=\"39\" />\n          <folding>\n            <element signature=\"e#0#16#0\" expanded=\"true\" />\n          </folding>\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/main/scala/SettingParser.scala\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"102\">\n          <caret line=\"8\" column=\"52\" lean-forward=\"true\" selection-start-line=\"8\" selection-start-column=\"37\" selection-end-line=\"8\" selection-end-column=\"52\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/resources/application.conf\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"17\">\n          <caret line=\"1\" column=\"14\" lean-forward=\"false\" selection-start-line=\"1\" selection-start-column=\"14\" selection-end-line=\"1\" selection-end-column=\"14\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/src/resources/reference.conf\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"34\">\n          <caret line=\"2\" column=\"20\" lean-forward=\"true\" selection-start-line=\"2\" selection-start-column=\"20\" selection-end-line=\"2\" selection-end-column=\"20\" />\n          <folding />\n        </state>\n      </provider>\n    </entry>\n  </component>\n  <component name=\"masterDetails\">\n    <states>\n      <state key=\"ArtifactsStructureConfigurable.UI\">\n        <settings>\n          <artifact-editor />\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"FacetStructureConfigurable.UI\">\n        <settings>\n          <last-edited>No facets are configured</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"GlobalLibrariesConfigurable.UI\">\n        <settings>\n          <last-edited>Python 3.6 interpreter library</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"JdkListConfigurable.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ModuleStructureConfigurable.UI\">\n        <settings>\n          <last-edited>scraper</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.27011493\" />\n                <option value=\"0.6\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectJDKs.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectLibrariesConfigurable.UI\">\n        <settings>\n          <last-edited>sbt: com.github.nscala-time:nscala-time_2.12:2.18.0:jar</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n    </states>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision b66867f7a78d29cbd99f02193ec8496151b5dc10)
++++ .idea/workspace.xml	(date 1522825992000)
+@@ -2,95 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="80c0bd42-fe46-48ec-bdf6-5f534e7c5a14" name="Default" comment="">
+-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/SettingParser.scala" />
+-      <change beforePath="" afterPath="$PROJECT_DIR$/src/resources/application.conf" />
+-      <change beforePath="" afterPath="$PROJECT_DIR$/src/resources/reference.conf" />
+-      <change beforePath="$PROJECT_DIR$/.idea/modules/scraper.iml" afterPath="$PROJECT_DIR$/.idea/modules/scraper.iml" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+-      <change beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2.cache" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$0f69fdb4006e818b9cf2.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1.cache" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3bb561606539cbc8f1a1.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96.cache" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ff36a160da1e373ad96.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c.cache" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c5ed469bba7a15327e1c.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f.cache" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e2eb18c7716d4456732f.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268.cache" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ee91bff3af4738ddd268.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scraper-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-compile.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-optional.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-plugin.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-pom.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-provided.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-runtime.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-scala-tool.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scraper-build-test.xml" />
+-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
+-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+-      <change beforePath="$PROJECT_DIR$/src/main/scala/Main.scala" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
+-      <change beforePath="$PROJECT_DIR$/src/main/scala/PageScraper.scala" afterPath="$PROJECT_DIR$/src/main/scala/PageScraper.scala" />
+-      <change beforePath="$PROJECT_DIR$/src/test/scala/UtilsSpec.scala" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/BashOrgUrlBuilder$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/BashOrgUrlBuilder.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Main.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/PageScraper$.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/PageScraper.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Post$.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Post$.class" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/Post.class" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/Post.class" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.properties" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper$sources/0.1/resolved.xml.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.properties" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scraper_2.12/0.1/resolved.xml.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-compile.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-optional.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-plugin.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-pom.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-provided.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-runtime.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-scala-tool.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper$sources-test.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-compile.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-optional.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-optional.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-plugin.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-plugin.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-pom.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-pom.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-provided.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-provided.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-runtime.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-scala-tool.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test-internal.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test.xml" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scraper_2.12-test.xml" />
+-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/UtilsSpec.class" afterPath="" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <ignored path="$PROJECT_DIR$/target/" />
+@@ -127,11 +39,11 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file leaf-file-name="PageScraper.scala" pinned="false" current-in-tab="false">
++      <file leaf-file-name="PageScraper.scala" pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/src/main/scala/PageScraper.scala">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="340">
+-              <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
++            <state relative-caret-position="360">
++              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+               <folding>
+                 <element signature="e#0#57#0" expanded="true" />
+               </folding>
+@@ -139,31 +51,21 @@
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="application.conf" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/resources/application.conf">
++      <file leaf-file-name="ContentExtractors.scala" pinned="false" current-in-tab="false">
++        <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="17">
+-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
++            <state relative-caret-position="1332">
++              <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="SettingParser.scala" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/scala/SettingParser.scala">
++      <file leaf-file-name="JsoupBrowser.scala" pinned="false" current-in-tab="false">
++        <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="102">
+-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="52" />
+-              <folding />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file leaf-file-name="reference.conf" pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/src/resources/reference.conf">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="34">
+-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
++            <state relative-caret-position="324">
++              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
+               <folding />
+             </state>
+           </provider>
+@@ -172,32 +74,20 @@
+       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/build.sbt">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="204">
+-              <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
++            <state relative-caret-position="144">
++              <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+               <folding />
+             </state>
+           </provider>
+         </entry>
+       </file>
+-      <file leaf-file-name="Post.scala" pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/scala/Post.scala">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="-77">
+-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+-              <folding>
+-                <element signature="e#0#54#0" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+       <file leaf-file-name="Main.scala" pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="365">
+-              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="39" />
++            <state relative-caret-position="216">
++              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+               <folding>
+-                <element signature="e#0#16#0" expanded="true" />
++                <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
+               </folding>
+             </state>
+           </provider>
+@@ -251,10 +141,10 @@
+     <sorting>DEFINITION_ORDER</sorting>
+   </component>
+   <component name="ProjectFrameBounds">
+-    <option name="x" value="-1" />
+-    <option name="y" value="1" />
++    <option name="x" value="3839" />
++    <option name="y" value="45" />
+     <option name="width" value="1922" />
+-    <option name="height" value="1080" />
++    <option name="height" value="1036" />
+   </component>
+   <component name="ProjectInspectionProfilesVisibleTreeState">
+     <entry key="Project Default">
+@@ -304,8 +194,9 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="AndroidView" />
+       <pane id="Scope" />
++      <pane id="Scratches" />
++      <pane id="AndroidView" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -333,16 +224,39 @@
+             </path>
+             <path>
+               <item name="scraper" type="b2602c69:ProjectViewProjectNode" />
++              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
++            </path>
++            <path>
++              <item name="scraper" type="b2602c69:ProjectViewProjectNode" />
++              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
++              <item name="sbt: net.ruippeixotog:scala-scraper_2.12:2.1.0:jar" type="70bed36:NamedLibraryElementNode" />
++            </path>
++            <path>
++              <item name="scraper" type="b2602c69:ProjectViewProjectNode" />
++              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
++              <item name="sbt: net.ruippeixotog:scala-scraper_2.12:2.1.0:jar" type="70bed36:NamedLibraryElementNode" />
++              <item name="scala-scraper_2.12-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="scraper" type="b2602c69:ProjectViewProjectNode" />
++              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
++              <item name="sbt: net.ruippeixotog:scala-scraper_2.12:2.1.0:jar" type="70bed36:NamedLibraryElementNode" />
++              <item name="scala-scraper_2.12-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
++              <item name="scalascraper" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="scraper" type="b2602c69:ProjectViewProjectNode" />
++              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
++              <item name="sbt: net.ruippeixotog:scala-scraper_2.12:2.1.0:jar" type="70bed36:NamedLibraryElementNode" />
++              <item name="scala-scraper_2.12-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
++              <item name="scalascraper" type="462c0819:PsiDirectoryNode" />
+               <item name="scraper" type="462c0819:PsiDirectoryNode" />
+-              <item name="src" type="462c0819:PsiDirectoryNode" />
+-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
+       <pane id="PackagesPane" />
+-      <pane id="Scratches" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+@@ -498,7 +412,7 @@
+     </recent_temporary>
+   </component>
+   <component name="SbtLocalSettings">
+-    <option name="lastUpdateTimestamp" value="1522686987397" />
++    <option name="lastUpdateTimestamp" value="1522738699516" />
+     <option name="availableProjects">
+       <map>
+         <entry>
+@@ -548,6 +462,8 @@
+       <workItem from="1522399075638" duration="8229000" />
+       <workItem from="1522679312581" duration="317000" />
+       <workItem from="1522679825917" duration="11394000" />
++      <workItem from="1522740757718" duration="673000" />
++      <workItem from="1522825927506" duration="64000" />
+     </task>
+     <servers />
+   </component>
+@@ -560,44 +476,43 @@
+     </history-entry>
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="19940000" />
++    <option name="totallyTimeSpent" value="21625000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-1" y="1" width="1922" height="1080" extended-state="0" />
+-    <editor active="true" />
++    <frame x="3839" y="45" width="1922" height="1036" extended-state="0" />
+     <layout>
+       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+       <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5336842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32210526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46526316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12540022" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
++      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4336842" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5336842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32210526" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15224358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+-      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46526316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+     </layout>
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -649,15 +564,39 @@
+           <folding>
+             <element signature="e#0#57#0" expanded="true" />
+           </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1368">
++          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="522">
++          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/build.sbt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="144">
++          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="68">
+-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
++        <state relative-caret-position="306">
++          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+           <folding>
+-            <element signature="e#0#16#0" expanded="true" />
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
+           </folding>
+         </state>
+       </provider>
+@@ -669,12 +608,72 @@
+           <folding>
+             <element signature="e#0#57#0" expanded="true" />
+           </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1368">
++          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="522">
++          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
++          <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/build.sbt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="119">
++        <state relative-caret-position="144">
++          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="306">
++          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
++          <folding>
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/PageScraper.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#57#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1368">
++          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="522">
++          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/build.sbt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="126">
+           <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+           <folding />
+         </state>
+@@ -682,10 +681,10 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="68">
++        <state relative-caret-position="72">
+           <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+           <folding>
+-            <element signature="e#0#16#0" expanded="true" />
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
+           </folding>
+         </state>
+       </provider>
+@@ -697,102 +696,168 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/util/ProxyUtils.scala" />
+-    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala" />
+-    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala" />
+-    <entry file="file://$PROJECT_DIR$/src/test/scala/UtilsSpec.scala">
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="72">
++          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
++          <folding>
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/build.sbt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="136">
+-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="45" />
++        <state relative-caret-position="126">
++          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.pathikrit/better-files_2.12/srcs/better-files_2.12-3.4.0-sources.jar!/better/files/File.scala">
++    <entry file="file://$PROJECT_DIR$/src/test/scala/UtilsSpec.scala" />
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/util/ProxyUtils.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="119">
+-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
++        <state relative-caret-position="36">
++          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="39" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="324">
++          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/output.path">
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="340">
+-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
++        <state relative-caret-position="1332">
++          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/output.json">
++    <entry file="file://$PROJECT_DIR$/src/main/scala/PageScraper.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="378">
++          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
++          <folding>
++            <element signature="e#0#57#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/PageScraper.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="340">
+-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+-          <folding />
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#57#0" expanded="true" />
++          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="jar://$USER_HOME$/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-4.0.1-sources.jar!/com/codahale/metrics/MetricRegistry.java">
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="199">
+-          <caret line="415" column="36" lean-forward="false" selection-start-line="415" selection-start-column="36" selection-end-line="415" selection-end-column="36" />
++        <state relative-caret-position="68">
++          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+           <folding>
+-            <element signature="e#13728#13729#0" expanded="false" />
+-            <element signature="e#13778#13779#0" expanded="false" />
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/test.json">
++    <entry file="file://$PROJECT_DIR$/src/main/scala/PageScraper.scala">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="0">
+           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding>
++            <element signature="e#0#57#0" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/build.sbt">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="119">
++          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="68">
++          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
++          <folding>
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/project/build.properties">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/util/ProxyUtils.scala" />
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/browser/JsoupBrowser.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="324">
++          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="18" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="jar://$USER_HOME$/.ivy2/cache/net.ruippeixotog/scala-scraper_2.12/srcs/scala-scraper_2.12-2.1.0-sources.jar!/net/ruippeixotog/scalascraper/scraper/ContentExtractors.scala">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="1332">
++          <caret line="76" column="6" lean-forward="false" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/src/test/scala/UtilsSpec.scala" />
++    <entry file="jar://$USER_HOME$/.ivy2/cache/com.github.pathikrit/better-files_2.12/srcs/better-files_2.12-3.4.0-sources.jar!/better/files/File.scala" />
++    <entry file="file://$PROJECT_DIR$/output.path" />
++    <entry file="file://$PROJECT_DIR$/output.json" />
++    <entry file="jar://$USER_HOME$/.ivy2/cache/io.dropwizard.metrics/metrics-core/srcs/metrics-core-4.0.1-sources.jar!/com/codahale/metrics/MetricRegistry.java" />
++    <entry file="file://$PROJECT_DIR$/test.json" />
+     <entry file="jar:///usr/lib/jvm/java-8-openjdk/jre/lib/rt.jar!/java/util/SortedMap.class">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="323">
+           <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/build.sbt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="204">
+-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
++        <state relative-caret-position="144">
++          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+           <folding />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/scala/PageScraper.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="340">
+-          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
++        <state relative-caret-position="360">
++          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+           <folding>
+             <element signature="e#0#57#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/scala/Post.scala">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-77">
+-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+-          <folding>
+-            <element signature="e#0#54#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/scala/Post.scala" />
+     <entry file="file://$PROJECT_DIR$/src/main/scala/Main.scala">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="365">
+-          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="39" />
++        <state relative-caret-position="216">
++          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+           <folding>
+-            <element signature="e#0#16#0" expanded="true" />
++            <marker date="1522738639266" expanded="true" signature="781:783" ph="{...}" />
+           </folding>
+         </state>
+       </provider>
+@@ -809,7 +874,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="17">
+           <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -817,7 +881,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="34">
+           <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+-          <folding />
+         </state>
+       </provider>
+     </entry>
+@@ -850,7 +913,7 @@
+       </state>
+       <state key="GlobalLibrariesConfigurable.UI">
+         <settings>
+-          <last-edited>Python 3.6 interpreter library</last-edited>
++          <last-edited>Python 2.7 (eden-net) interpreter library</last-edited>
+           <splitter-proportions>
+             <option name="proportions">
+               <list>
